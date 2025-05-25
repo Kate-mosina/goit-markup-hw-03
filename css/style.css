@@ -189,6 +189,8 @@ body {
 
 .section-one {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .section-one .main-header {
@@ -200,6 +202,10 @@ body {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
+.section-one .main-header {
+  max-width: 496px;
+  margin: 0 auto;
+}
 
 .btn-primary {
   color: #ffffff;
@@ -210,6 +216,12 @@ body {
   line-height: 1.5;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 
 .btn-primary:focus {
