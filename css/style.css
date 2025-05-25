@@ -40,7 +40,7 @@ header .container {
   align-items: center;
 }
 
-nav {
+.site-nav {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -60,6 +60,10 @@ nav {
 header {
   border-bottom: 1px solid #e7e9fc;
 }
+.logo {
+  margin-right: 76px;
+}
+
 /* Our Advantages*/
 
 .advantages-list {
@@ -122,6 +126,13 @@ body {
 .address-s {
   font-style: normal;
 }
+.address-inf {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 .address-inf a {
   color: #434455;
@@ -153,6 +164,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   background-color: #ffffff;
+  padding: 24px 0;
 }
 
 .special-studio:hover,
